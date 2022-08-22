@@ -1,0 +1,190 @@
+body{
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Roboto Mono', monospace;;
+}
+
+html {
+  height: 100%;
+  margin:0;
+  padding:0;
+  overflow-x:hidden;
+}
+
+
+/* hero image */
+.hero {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(/img/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  filter: brightness(60%);
+}
+
+.hero-content {
+  position: relative; 
+  font-family: "Monserrat", sans-serif;
+  color: white;
+  text-align: center;
+  margin: 0.625rem;
+}
+.hero-title {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.hero-subtitle {
+  font-size: 2rem;
+  font-weight: 200;
+  margin-top: 1rem;
+}
+
+.btn-hero {
+  background-color: #395B64!important;
+  border: 0!important;
+  color: white!important;
+}
+.btn-hero:hover {
+  background-color: #2C3333!important;
+}
+
+
+/* navbar */
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #2C3333;
+    overflow: hidden;
+    text-align-last: center;
+    padding: 10px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #395B64;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+.navbar {
+  background-color: #395B64;
+}
+
+.navbar a {
+  color: white!important;
+}
+.navbar::before {
+  content: "";
+  clear: both;
+  
+}
+
+.navbar a:hover {
+  background-color: #2C3333;
+  color: black;
+}
+
+.navbar .active {
+  background-color: #2C3333!important;
+}
+
+/* footer */
+.footer {
+  width: 100%;     
+  background: #333;
+  padding: 10px;
+  color: white;
+  margin-top: auto;
+  text-align: center;
+}
+
+.informasi-footer li{
+  display: inline;
+  padding: 20px;
+}
+
+.informasi-footer {
+  margin-bottom: 0;
+}
+
+.pembuat {
+  margin-bottom: 0;
+}
+
+/* typing text  */
+.typing-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+.typing-text::after {
+  content: "|";
+  animation: blink ease 1s infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 0;
+  } 50% {
+    opacity: 1;
+  }
+}
+
+/* style projet */
+.project {
+  background-color: #395B64;
+  color: white;
+  height: 200vh;
+}
+
+.project h1 {
+  margin:50px;
+  text-shadow: 2px 2px black;
+}
+
+.project h5 {
+  text-shadow: 2px 2px black;
+}
+
+.project p {
+  text-shadow: 2px 2px black;
+}

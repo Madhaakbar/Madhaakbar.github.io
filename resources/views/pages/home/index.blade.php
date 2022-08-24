@@ -11,8 +11,7 @@
                     <div class="typing-text"></div>
                 </div>
             </div>
-            <button type="button" class="btn mt-3 btn-hero" onclick="location.href='#'">
-                Contact Me! &raquo;
+            <button type="button" class="btn mt-3 btn-hero"><a href="https://wa.me/6282262111177" class="text-decoration-none text-white" target="_blank">Contact Me! &raquo;</a>
             </button>
         </div>
         </div>

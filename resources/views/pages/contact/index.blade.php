@@ -1,14 +1,10 @@
-<section>
-    <div class="mb-3 contact-form">
-        <label for="exampleFormControlInput1" class="form-label mt-3">Name</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John">
-        <label for="exampleFormControlInput1" class="form-label mt-3">last Name</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Doe">
-        <label for="exampleFormControlInput1" class="form-label mt-3">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="johndoe@example.com">
-    </div>
-    <div class="mb-5">
-        <label for="exampleFormControlTextarea1" class="form-label">Pesan</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+               <span class="contactWa"><i class="bi bi-whatsapp icon-wa"></i></span>
+               <span class="contactWa"><h2 class="style-pesan"><a class="text-decoration-none text-white" href="https://wa.me/6282262111177" target="_blank">Send me a message</a></h2></span>
+            </div>
+        </div>
     </div>
 </section>

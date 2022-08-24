@@ -21,7 +21,7 @@ html {
     height: 100%;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 /* hero image */
@@ -126,9 +126,8 @@ html {
 }
 
 .nav-link {
-  margin-right: 15px;
+    margin-right: 15px;
 }
-
 
 /* .navbar-nav ul li {
     display: inline;
@@ -155,6 +154,11 @@ html {
 
 .pembuat {
     margin-bottom: 0;
+}
+
+.informasi-footer li:hover {
+    background-color: #395b64;
+    color: black;
 }
 
 /* typing text  */
@@ -198,11 +202,11 @@ html {
 }
 
 .project .kolom-project {
-  box-shadow: 10px 10px 5px #2c3333;
+    box-shadow: 10px 10px 5px #2c3333;
 }
 
 .kolom-project:hover {
-  box-shadow: 10px 10px 20px #A5C9CA;
+    box-shadow: 10px 10px 20px #a5c9ca;
 }
 
 /* style contact form */
@@ -210,11 +214,33 @@ html {
     margin-top: 30px;
 }
 
-/* responsive */
-@media (min-width: 992px) { 
-  .list-navbarku {
-    text-align: center;
+.contactWa {
+    font-size: 250px;
     display: flex;
-    padding-top: 1rem;
-  }
- }
+    justify-content: center;
+}
+
+.contactWa .icon-wa {
+    text-shadow: 10px 10px 5px #2c3333;
+}
+
+.contactWa .icon-wa:hover {
+    text-shadow: 10px 10px 20px #a5c9ca;
+}
+
+.contactWa .style-pesan {
+    text-shadow: 4px 3px 5px #2c3333;
+}
+
+.contactWa .style-pesan:hover {
+    text-shadow: 5px 4px 20px #a5c9ca;
+}
+
+/* responsive */
+@media (min-width: 992px) {
+    .list-navbarku {
+        text-align: center;
+        display: flex;
+        padding-top: 1rem;
+    }
+}

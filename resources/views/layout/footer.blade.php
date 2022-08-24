@@ -7,7 +7,7 @@
                         <li>My Project</li>
                         <li>Contact Me</li>
                     </ul>
-                    <p class="pt-2 pembuat">Madha Akbar <i class="bi bi-heart-fill"></i> 2022</p>
+                    <p class="pt-2 pembuat">Madha Akbar <i class="bi bi-heart-fill"></i> {{date ('D-M-Y')}}</p>
                 </div>
             </div>
         </div>

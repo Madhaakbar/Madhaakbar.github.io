@@ -70,8 +70,8 @@ function setTyper(element, words) {
 
 // navbar
 $(document).ready(function(){
-  $('navbar-nav a nav-link').click(function(){
-    $('a nav-link').removeClass("active");
+  $('ul li a').click(function(){
+    $('li a').removeClass("active");
     $(this).addClass("active");
 });
 });
